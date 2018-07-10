@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-06-23_1204",
+    "name": "kimochishare",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
@@ -12,9 +12,13 @@
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
     "versionFirst": "4.7.6",
     "uniqCompNum": 6,
-    "versionPublish": "4.7.6"
+    "versionPublish": "4.7.6",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -30,10 +34,10 @@
         {
           "_params": {
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "showButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": true,
             "color": "#fff",
             "hamburgerColor": "#000"
@@ -55,7 +59,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\">Mobirise</a>",
+          "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"https://code4aichi.github.io/kimochishare/\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">みんなのきもち</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -114,9 +118,9 @@
             "overlayColor": "#cfeff6",
             "overlayOpacity": "0.4"
           },
-          "title": "みんなの気持ち",
-          "text": "みんなの今の気持ちを共有しよう！",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://www3.efeel.to/eventQuiz24/c4a/admin/graph.php\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-setting3 mbr-iconfont mbr-iconfont-btn\"></span>先生用</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://www3.efeel.to/eventQuiz24/c4a/vote/\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-smile-face mbr-iconfont mbr-iconfont-btn\"></span>生徒用</a>   ",
+          "title": "みんなのきもち",
+          "text": "今感じてること、思っていることを恥ずかしがらずに発言しよう！<br>同じ気持ちの仲間がみつかるかもよ！",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://app2.sli.do/event/ppaie03b/questions\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-smile-face mbr-iconfont mbr-iconfont-btn\"></span>発言しよう！</a>   ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
